@@ -33,6 +33,17 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
+.alone{
+  width: 60%;
+  margin-left: 260px;
+}
+
+@media(max-width:570px){
+  .alone{
+    width: 70%;
+    margin-left: 90px;
+  }
+}
 
 .navbar-brand{
   font-family:"Ubuntu" ;
